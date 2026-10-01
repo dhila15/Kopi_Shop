@@ -7,6 +7,57 @@
     <link rel="stylesheet" href="#">
 </head>
 <body>
-    
+    <header class="navbar">
+        <a href="#" class="logo">KOPIRATU</a>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+        <button class="cart-btn" onclick="scrollToCart"()><span id="cartCount">0</span></button>
+    </header>
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">COFFEE - COMFORT - MOMENTS</p>
+                <h1>Nikmati Kopimu,<br>Sesuai Selera Kamu.</h1>
+                <p class="hero-desc">Racikan kopi dan minuman pilihan untuk menemani setiap cerita, pekerjaan, dan waktu santaimu.</p>
+                <a href="#" class="primary-btn">Lihat Menu</a>
+            </div>
+            <div class="hero-art">
+                <div class="coffee-glow"></div>
+                <div class="hero-cup"></div>
+            </div>
+        </section>
+        <section class="menu-section" id="menu">
+            <div class="section-heading">
+                <p class="eyebrow">OUR MENU</p>
+                <h2>Temukan Minuman Favoritmu</h2>
+                <p>Pilih minuman, ukuran, dan jumlah sesuai keinginanmu.</p>
+            </div>
+            <div class="menu-grid" id="menuGrid"></div>
+        </section>
+        <section class="cart-section" id="cart">
+            <div class="section-heading">
+                <p class="eyebrow">YOUR ORDER</p>
+                <h2>Pesanan Kamu</h2>
+                <p>Pesanan yang kamu pilih akan muncul di sini.</p>
+            </div>
+            <div class="cart-box">
+                <div id="cartItems" class="cart-items">
+                    <idv class="empty-cart">
+                        <h3>Keranjang masih kosong</h3>
+                        <p>Pilih minuman favoritmu!</p>
+                    </idv>
+                </div>
+                <div class="cart-total">
+                    <span>Total</span>
+                    <strong id="totalPrice">Rp0</strong>
+                </div>
+                <button class="checkout-btn" id="checkoutBtn" onclick="checkout()" disabled>Pesan Sekarang</button>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
