@@ -15,3 +15,78 @@ body {
     background: #f8f2e9;
     color: #34251f;
 }
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: 76px;
+    padding: 0 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(248, 242, 233, .94);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(72, 48, 35, .08);
+}
+
+.logo {
+    color: #3d2920;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5e4a40;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #a66a3f;
+}
+
+.cart-btn {
+    border: 0;
+    background: #3d2920;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#cartCount {
+    display: inline-flex;
+    min-width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    background: #d9a36f;
+    color: #3d2920;
+    border-radius: 50%;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.hero {
+    min-height: 650px;
+    padding: 70px 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    background: radial-gradient(circle at 80% 45%, rgba(205, 153, 101, .24), transparent 30%), #f8f2e9;
+}
+
+.hero-content {
+    max-width: 600px;
+}
