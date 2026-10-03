@@ -112,3 +112,57 @@ nav a:hover {
     line-height: 1.8;
     color: #756158;
 }
+
+.primary-btn, 
+.checkout-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border: 0;
+    background: #3d2920;
+    color: white;
+    text-decoration: none;
+    padding: 15px 24px;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .25s;
+}
+
+.primary-btn:hover,
+.checkout-btn:hover {
+    transform: translateY(-3px);
+    background: #a66a3f;
+}
+
+.hero-art {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: grid;
+    place-items: center;
+}
+
+.coffee-glow {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background: #ead5bc;
+}
+
+.hero-cup {
+    position: relative;
+    z-index: 2;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 115px;
+    background: #fffaf3;
+    box-shadow: 0 30px 60px rgba(74, 45, 28, .18);
+    transform: rotate(-8deg);
+    animation: float 4s ease-in-out infinite;
+}
