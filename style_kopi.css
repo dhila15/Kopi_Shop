@@ -90,3 +90,25 @@ nav a:hover {
 .hero-content {
     max-width: 600px;
 }
+
+.eyebrow {
+    color: #a66a3f;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.hero h1 {
+    font-family: "playfair Display", serif;
+    font-size: clamp(48%,  6vw, 78px);
+    line-height: 1.04;
+    color: #35251f;
+}
+
+.hero-desc {
+    max-width: 500px;
+    margin: 25px 0 32px;
+    line-height: 1.8;
+    color: #756158;
+}
