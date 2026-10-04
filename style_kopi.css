@@ -100,7 +100,7 @@ nav a:hover {
 }
 
 .hero h1 {
-    font-family: "playfair Display", serif;
+    font-family: "Playfair Display", serif;
     font-size: clamp(48%,  6vw, 78px);
     line-height: 1.04;
     color: #35251f;
@@ -186,7 +186,7 @@ nav a:hover {
 .section-heading h2,
 .about h2,
 .contact h2 {
-    font-family: "playfair Display", serif;
+    font-family: "Playfair Display", serif;
     font-size: 43px;
     margin-bottom: 12px;
 }
@@ -226,7 +226,7 @@ nav a:hover {
 }
 
 .menu-card h3 {
-    font-family: "palyfair Display", serif;
+    font-family: "Playfair Display", serif;
     font-size: 26px;
 }
 
@@ -269,7 +269,7 @@ nav a:hover {
     font-size: 12px;
 }
 
-.size-options input:checked + lebel {
+.size-options input:checked + label {
     background: #3d2920;
     color: white;
     border-color: #3d2920;
@@ -427,7 +427,7 @@ nav a:hover {
 }
 
 .about-number strong {
-    font-family: "playfair Display", serif;
+    font-family: "Playfair Display", serif;
     font-size: 30px;
 }
 
