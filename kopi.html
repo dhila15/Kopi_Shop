@@ -10,12 +10,12 @@
     <header class="navbar">
         <a href="#" class="logo">KOPIRATU</a>
         <nav>
-            <a href="#">Home</a>
-            <a href="#">Menu</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
         </nav>
-        <button class="cart-btn" onclick="scrollToCart"()><span id="cartCount">0</span></button>
+        <button class="cart-btn" onclick="scrollToCart()"><span id="cartCount">0</span></button>
     </header>
     <main>
         <section class="hero" id="home">
@@ -23,7 +23,7 @@
                 <p class="eyebrow">COFFEE - COMFORT - MOMENTS</p>
                 <h1>Nikmati Kopimu,<br>Sesuai Selera Kamu.</h1>
                 <p class="hero-desc">Racikan kopi dan minuman pilihan untuk menemani setiap cerita, pekerjaan, dan waktu santaimu.</p>
-                <a href="#" class="primary-btn">Lihat Menu</a>
+                <a href="#menu" class="primary-btn">Lihat Menu</a>
             </div>
             <div class="hero-art">
                 <div class="coffee-glow"></div>
@@ -46,10 +46,10 @@
             </div>
             <div class="cart-box">
                 <div id="cartItems" class="cart-items">
-                    <idv class="empty-cart">
+                    <div class="empty-cart">
                         <h3>Keranjang masih kosong</h3>
                         <p>Pilih minuman favoritmu!</p>
-                    </idv>
+                    </div>
                 </div>
                 <div class="cart-total">
                     <span>Total</span>
@@ -73,11 +73,13 @@
         </section>
         <section class="contact" id="contact">
             <p class="eyebrow">COME & SAY HI</p>
-            <h2>Temui Kami</h2>
+            <h2>Temui Kami di Kopi Ratu</h2>
             <div class="contact-grid">
                 <div>Alamat<p>Jl.Kopi Ratu No.15</p></div>
                 <div>Jam Buka<p>10.00-23.00</p></div>
-                <div>Telepon<P>0813-4917-4243</P></div>
+                <div>Telepon
+                    <P>0813-4917-4243</P>
+                </div>
             </div>
         </section>
     </main>
