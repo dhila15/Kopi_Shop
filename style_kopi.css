@@ -493,11 +493,11 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
     .hero{
-        padding: 330px;
+        padding: 100px 8%;
     }
 
     .hero-art {
-        width: 330px;
+        width: 280px;
     }
 
     .contact-grid {
@@ -507,21 +507,36 @@ footer {
 
 @media (max-width: 650px) {
     .navbar {
-        padding: 0 5%;
+        padding: 0 6%;
     }
 
     nav {
-        display: none;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav a {
+        font-size: 14px;
     }
 
     .hero {
         flex-direction: column;
         text-align: center;
+        padding: 80px 6% 50px;
     }
 
     .hero-desc {
         margin-left: auto;
         margin-right: auto;
+        max-width: 100%;
     }
 
     .menu-grid {
@@ -531,11 +546,12 @@ footer {
     .section-heading h2,
     .about h2,
     .contact h2 {
-        font-size: 34px;
+        font-size: 30px;
     }
 
     .about {
-        padding: 70px 8%;
+        padding: 60px 8%;
         flex-direction: column;
     }
 }
+
